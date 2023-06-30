@@ -3,19 +3,19 @@ import os
 
 class Config:
 
-    BOT_TOKEN = os.environ.get("BOT_TOKEN")
+    BOT_TOKEN = os.environ.get("5848537364:AAEwt5ED7zOcTYOHBJdn1jMmJ1GJ8po3rv4")
 
-    SESSION_NAME = os.environ.get("SESSION_NAME", ":memory:")
+    SESSION_NAME = os.environ.get("Ictuploadbot", ":memory:")
 
-    API_ID = int(os.environ.get("API_ID"))
+    API_ID = int(os.environ.get("26367674"))
 
-    API_HASH = os.environ.get("API_HASH")
+    API_HASH = os.environ.get("9758292b691b82c5915900c506fcbe83")
 
     CLIENT_ID = os.environ.get("CLIENT_ID")
 
     CLIENT_SECRET = os.environ.get("CLIENT_SECRET")
 
-    BOT_OWNER = int(os.environ.get("BOT_OWNER"))
+    BOT_OWNER = int(os.environ.get("5697445137"))
 
     AUTH_USERS_TEXT = os.environ.get("AUTH_USERS", "")
 
